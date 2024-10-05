@@ -54,6 +54,15 @@ body{
     border-radius: 25%;
 }
 @media (max-width:720px) {
+    body{
+        background-color: #6E6E6E;
+    }
+    #flotar{
+        width: 50px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
     #masinformacion{
         width: 50px;
         align-items: center;
