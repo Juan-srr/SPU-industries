@@ -55,14 +55,13 @@ body{
 }
 @media (max-width:720px) {
     body{
-        background-image: none;
         background-color: #6E6E6E;
     }
     #flotar{
-        width: 50px;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
+        width: 100px;
+        align-items: left;
+        text-align: left;
+        justify-content: left;
     }
     #masinformacion{
         width: 50px;
