@@ -1,0 +1,32 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-size: cover;
+    background-image:url(IMAGENES/fondo5.png);
+}
+#servicio{
+    max-width: 100%;
+    text-align: center;
+}
+#nose ul {
+    transition: 0.5s;
+    margin-top: 90px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    list-style: none;
+}
+#nose ul li{
+    transition: 0.5s;
+    background-color: #FAF3DD;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#nose ul li p{
+    font: 25px bold black ;
+}
+#nose ul  :hover{
+    transform: scale(1.1);
+}

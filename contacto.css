@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+   background-image:url(IMAGENES/fondo2.png);
+   background-size:cover;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.contacto { 
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    border-radius:50px;
+    text-align: left;
+    max-width: 600px;
+    background-color: #273154;
+    padding: 2em;
+    border: 1px solid #000000;
+    box-shadow: 0 0 10px rgba(253, 253, 253, 0.1)
+ 
+}
+p, h1, h2, label{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input, textarea{
+    width: 100px;
+    margin: 2px;
+    border-color: #fff;
+    background-color: #64a0c4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    background-color:#193550;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 70px;
+}

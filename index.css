@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image:url(IMAGENES/fondo.jpg);
+    background-size:cover;
+}
+#caja{
+    margin-top: 10%;
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    padding: 5%;
+    position: relative; 
+    flex-wrap: wrap;
+;
+}
+#flotar{
+    margin-top: 10%;
+    float: right;
+}
+#masinformacion {
+    font-size: 25px;
+    transition: 0.5s;
+    border-radius: 20%;
+    height: 100px;
+    width: 300px;
+    margin-top: 15px;
+    margin-left: 100px;
+    border: none;
+    background-image: linear-gradient(to right,#0e2c20,#438671);
+}
+#masinformacion:hover{
+    color: white;
+    transform: scale(1.2);
+}
+#titulo, p{
+    flex: 1;
+    font-family:fantasy;
+    font-size: 80px;
+    color: rgb(245, 245, 248);
+}
+/*
+#caja2{
+    max-width: 45%;
+    justify-content: center;
+    padding: 5%;
+    position: relative;
+    margin-left: 5%;
+}
+    */
+#logoa{
+    border-radius: 25%;
+}
+@media (max-width:720px) {
+    h1,p{
+        font-size: 20px;
+    }
+    
+}
