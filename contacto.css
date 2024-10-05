@@ -50,11 +50,9 @@ main {
     border-radius:50px;
     text-align: left;
     max-width: 600px;
-    background-color: #273154;
+    background-color: #e4e6eb;
     padding: 2em;
     border: 1px solid #000000;
-    box-shadow: 0 0 10px rgba(253, 253, 253, 0.1)
- 
 }
 p, h1, h2, label{
     color: rgb(255, 255, 255);
@@ -62,15 +60,29 @@ p, h1, h2, label{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 input, textarea{
+    border: 2px solid #000000  ;
     width: 100px;
     margin: 2px;
-    border-color: #fff;
-    background-color: #64a0c4;
+    background-color: #ffffff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+input:hover{
+    border: 7px solid #170cac;
+}
 button{
-    background-color:#193550;
-    color: #fff;
+    background-color:#ffffff;
+    color: #000000;
     font-size: 20px;
     border-radius: 70px;
+    transition: 1s;
+}
+button:hover{
+    transform: scale(1.2);
+    background-color: #170cac;
+}
+@media (max-width:720px) {
+    body{
+        background-image: none;
+        background-color: #737373;
+    }
 }
