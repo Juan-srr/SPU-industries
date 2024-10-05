@@ -58,7 +58,7 @@ font: 20px bold black arial,sans-serif;
 #sobrenosotrosinfo{
     flex-wrap: wrap;
 }
-@media (max-width:480px) {
+@media (max-width:720px) {
     #cajas{
         transition: width 1s;
         transition: height .5s;
