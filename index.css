@@ -59,7 +59,16 @@ body{
         background-color: #6E6E6E;
     }
     #flotar{
-        display: none;
+        width: 50px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    #masinformacion{
+        width: 50px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
     }
     h1,p{
         font-size: 20px;
