@@ -55,19 +55,11 @@ body{
 }
 @media (max-width:720px) {
     body{
+        background-image: none;
         background-color: #6E6E6E;
     }
     #flotar{
-        width: 100px;
-        align-items: left;
-        text-align: left;
-        justify-content: left;
-    }
-    #masinformacion{
-        width: 50px;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
+        display: none;
     }
     h1,p{
         font-size: 20px;
