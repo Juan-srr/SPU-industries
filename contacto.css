@@ -74,11 +74,11 @@ button{
     color: #000000;
     font-size: 20px;
     border-radius: 70px;
-    transition: 1s;
+    transition: .5s;
 }
 button:hover{
     transform: scale(1.2);
-    background-color: #170cac;
+    background-color: #3a7e61;
 }
 @media (max-width:720px) {
     body{
