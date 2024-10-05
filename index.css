@@ -58,6 +58,9 @@ body{
         background-image: none;
         background-color: #6E6E6E;
     }
+    #masinformacion{
+        display: none;
+    }
     #flotar{
         display: none;}
     h1,p{
