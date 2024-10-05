@@ -30,3 +30,8 @@ body{
 #nose ul  :hover{
     transform: scale(1.1);
 }
+@media (max-width:720px) {
+    body{
+        background-color: #e0b484;
+    }
+}

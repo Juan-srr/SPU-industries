@@ -59,6 +59,9 @@ font: 20px bold black arial,sans-serif;
     flex-wrap: wrap;
 }
 @media (max-width:720px) {
+    body{
+        background-color: #f0d4f4;
+    }
     #cajas{
         transition: width 1s;
         transition: height .5s;

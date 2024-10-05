@@ -79,11 +79,6 @@ header {
         display: block;
     }
 }
-@media (max-width:1100px){
-    body {
-        background-color: rgb(35, 124, 124);
-    }
-}
 #arrow{
     align-items: center;
     width: 40px;
