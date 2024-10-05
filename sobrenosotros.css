@@ -60,6 +60,7 @@ font: 20px bold black arial,sans-serif;
 }
 @media (max-width:720px) {
     body{
+        background-image: none;
         background-color: #f0d4f4;
     }
     #cajas{
