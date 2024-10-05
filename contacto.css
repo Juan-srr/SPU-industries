@@ -50,7 +50,7 @@ main {
     border-radius:50px;
     text-align: left;
     max-width: 600px;
-    background-color: #e4e6eb;
+    background-color: #273154;
     padding: 2em;
     border: 1px solid #000000;
 }
@@ -84,5 +84,8 @@ button:hover{
     body{
         background-image: none;
         background-color: #737373;
+    }
+    #contacto-info{
+        font-size: 15px;
     }
 }
